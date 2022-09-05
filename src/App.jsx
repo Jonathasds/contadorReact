@@ -2,11 +2,16 @@
 import React from "react";
 import "./App.css";
 
+import Card from "./components/layout/Card";
+
 export default () => (
   <div className="App">
     <h1>Contador (React) </h1>
-    <div className=" ">
-      
-    </div>
+    <div className="Cards">
+      <Card>
+        
+      </Card>
+     
+     </div>
   </div>
 );
