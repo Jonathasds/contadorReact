@@ -1,0 +1,47 @@
+.Contador input{
+    margin-top: 20px;
+    cursor: pointer;
+
+    border: none;
+    font-size: 1.5rem;
+    width: 30%;
+     font-weight: 700;
+     border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 5px 5px 8px 5px rgba(0,0,0,0.6);
+}
+
+
+
+.Contador h1{
+    font-weight: 900;
+    color: #d6bf93 ;
+}
+
+
+.Contador button{
+    width: 100px;
+    height: 30px;
+    margin: 20px 0px 10px 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    background-color: #d6bf93 ;
+    cursor: pointer;
+   
+   
+   
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.Contador button:hover{
+    background-color:#939473 ;
+    color: aliceblue;
+}
