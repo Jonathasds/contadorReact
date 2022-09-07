@@ -49,7 +49,7 @@ export default (props) => {
         />
       </div>
       <div className="btn">
-        <button onClick={(_) => setNumeros(gerarNumeros(qtde))}>
+        <button onClick={(e) => setNumeros(gerarNumeros(qtde))}>
           Gerar Numeros
         </button>
       </div>

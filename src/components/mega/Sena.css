@@ -1,34 +1,36 @@
-.Mega{
+.Mega {
     display: flex;
     flex-direction: column;
 }
-.Mega h2:before{
+
+.Mega h2:before {
     content: "";
     width: 160px;
     border: solid 2px #4c8041;
     display: flex;
     margin-left: 148px;
-   
+
 }
 
 
-.Mega h2:after{
+.Mega h2:after {
     content: "";
     width: 160px;
     border: solid 2px #4c8041;
     display: flex;
     margin-left: 148px;
-   
+
 }
-.Mega h2{
+
+.Mega h2 {
     font-weight: 700;
-    color: #17a513 ;
+    color: #17a513;
     padding: 10px;
-    
+
 }
 
 .Mega h3 {
-    padding: 20px 0px 0 0 ;
+    padding: 20px 0px 0 0;
     font-size: 1.4rem;
     color: #009200;
 }
@@ -42,36 +44,33 @@
     align-items: center;
 }
 
-.Mega .Form input{
+.Mega .Form input {
     width: 45px;
     margin: 15px;
     font-size: 1.5rem;
     border: solid 2px #17a513;
     color: #044f2d;
-    outline:none;
-    border-radius:10px ;
+    outline: none;
+    border-radius: 10px;
 }
 
-.Mega .Form label{
-    color:#044f2d ;
+.Mega .Form label {
+    color: #044f2d;
 }
 
-.Mega .btn button{
+.Mega .btn button {
     padding: 5px;
     border: none;
     font-size: 1rem;
     font-weight: 700;
     color: black;
-    background-color:#35a262;
+    background-color:transparent;
     border-radius: 20px;
 }
 
-.Mega .btn button:hover{
-    background-color:#5dde4c; ;
-    
+.Mega .btn button:hover {
+    cursor: pointer;
+    background-color: #5dde4c;
+    -webkit-box-shadow: 0px 0px 42px 9px rgba(57, 255, 22, 0.51);
+    box-shadow: 0px 0px 42px 9px rgba(57, 255, 22, 0.51);
 }
-
-
-
-  
-    
