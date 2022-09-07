@@ -1,0 +1,77 @@
+.Mega{
+    display: flex;
+    flex-direction: column;
+}
+.Mega h2:before{
+    content: "";
+    width: 160px;
+    border: solid 2px #4c8041;
+    display: flex;
+    margin-left: 148px;
+   
+}
+
+
+.Mega h2:after{
+    content: "";
+    width: 160px;
+    border: solid 2px #4c8041;
+    display: flex;
+    margin-left: 148px;
+   
+}
+.Mega h2{
+    font-weight: 700;
+    color: #17a513 ;
+    padding: 10px;
+    
+}
+
+.Mega h3 {
+    padding: 20px 0px 0 0 ;
+    font-size: 1.4rem;
+    color: #009200;
+}
+
+
+
+.Mega .Form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.Mega .Form input{
+    width: 45px;
+    margin: 15px;
+    font-size: 1.5rem;
+    border: solid 2px #17a513;
+    color: #044f2d;
+    outline:none;
+    border-radius:10px ;
+}
+
+.Mega .Form label{
+    color:#044f2d ;
+}
+
+.Mega .btn button{
+    padding: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    background-color:#35a262;
+    border-radius: 20px;
+}
+
+.Mega .btn button:hover{
+    background-color:#5dde4c; ;
+    
+}
+
+
+
+  
+    

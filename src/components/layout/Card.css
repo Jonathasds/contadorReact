@@ -9,9 +9,9 @@
     display: flex;
     flex-direction: column;
     
-    min-width: 100%;
-    /* max-width: 800px; */
-    height: 400px;
+    min-width: 500px;
+    max-width: 500px;
+   
 }
 .Card .Title{
     padding: 5px 0 ;

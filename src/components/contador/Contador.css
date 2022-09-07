@@ -1,19 +1,20 @@
 .Contador input{
     margin-top: 20px;
     cursor: pointer;
+    padding: 2px 0px 3px 15px;
 
     border: none;
     font-size: 1.5rem;
-    width: 30%;
+    width: 10%;
      font-weight: 700;
      border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    outline:none;
     box-shadow: 5px 5px 8px 5px rgba(0,0,0,0.6);
 }
 
+.Contador label{
+    margin: 20px;
+}
 
 
 .Contador h1{
@@ -25,7 +26,7 @@
 .Contador button{
     width: 100px;
     height: 30px;
-    margin: 20px 0px 10px 50px;
+    margin: 40px 0px 10px 100px;
     font-size: 1.5rem;
     text-align: center;
     border: none;
@@ -35,10 +36,7 @@
    
    
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+   
 }
 
 .Contador button:hover{
